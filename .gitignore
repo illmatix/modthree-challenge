@@ -1,0 +1,38 @@
+# Composer dependencies
+vendor/
+
+# PHPUnit-specific files
+build/logs/
+phpunit.xml.cache
+.phpunit.result.cache
+
+# Generated files and caches
+*.log
+*.cache
+*.tmp
+*.lock
+.DS_Store
+Thumbs.db
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# Docker-related files
+docker-compose.override.yml
+.env
+.env.local
+
+# OS-generated files
+*.swp
+*.swo
+*.bak
+*~
+
+# Generated public assets (if applicable)
+public/assets/
+public/build/
+
+# Exclude test result artifacts
+coverage/
