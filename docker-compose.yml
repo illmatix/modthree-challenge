@@ -1,0 +1,10 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php_fsm_env
+    working_dir: /var/www/html
+    command: tail -f /dev/null
+    volumes:
+      - .:/var/www/html
