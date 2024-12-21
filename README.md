@@ -15,10 +15,10 @@ A lightweight PHP library to compute the modulo three of a binary string using a
 
 ## Installation
 
-Install the library via Composer:
+Install the library via Git:
 
 ```bash
-composer require illmatix/fsm-library
+git clone https://github.com/illmatix/modthree-challenge.git
 ```
 
 ## Usage
